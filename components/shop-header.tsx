@@ -8,7 +8,7 @@ export default function ShopHeader({ activeTab, setActiveTab }) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group" onClick={() => setActiveTab("shop")}>
           <span className="text-2xl">🍨</span>
-          <span className="font-mono font-bold text-lg">Sundai</span>
+          <span className="font-mono font-bold text-lg">{"Sundai Swag\n"}  </span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
